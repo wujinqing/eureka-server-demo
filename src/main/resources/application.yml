@@ -1,0 +1,12 @@
+
+server:
+  port: 8761
+eureka:
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: mytest
+  cloud:
+    client:
+      hostname: testname
